@@ -1,0 +1,572 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+header {
+  background: #3e3c3c url(http://u.cubeupload.com/pavel1996/Tint.jpg);
+  background-size: cover;
+  background-position: 50% 0;
+}
+
+.header-top {
+  width: 100%;
+  padding-top: 40px;
+}
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.header-top .logo {
+  font-size: 36px;
+  line-height: 41px;
+  letter-spacing: 0.05em;
+  font-family: "Cookie", cursive;
+  color: #fed136;
+  text-decoration: none;
+  float: left;
+  padding-left: 7px;
+}
+
+.header-top nav {
+  float: right;
+}
+
+.header-top .main-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav li {
+  display: inline-block;
+  padding: 0 17px;
+}
+
+.main-nav li:last-child {
+  padding-right: 0;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: bold;
+  line-height: 41px;
+  text-transform: uppercase;
+}
+
+.main-nav a:hover {
+  text-decoration: underline;
+}
+
+.main-nav a:active {
+  text-decoration: underline;
+  color: #bebebe;
+}
+
+.header-center {
+  margin-top: 187px;
+  text-align: center;
+}
+
+.header-center span {
+  font: italic 45px "Vollkorn", cursive;
+  line-height: 58px;
+  color: #ffffff;
+  letter-spacing: 0.01em;
+}
+
+.header-center h1 {
+  font: bold 75px "Montserrat", "Arial", sans-serif;
+  line-height: 98px;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: -0.025em;
+  margin-top: 13px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #fed136;
+  padding: 21px 48px;
+  border-radius: 3px;
+  color: #ffffff;
+  font: bold 18px "Montserrat", "Arial", sans-serif;
+  line-height: 24px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: #ffde6c;
+}
+
+.btn:active {
+  background-color: #ecc84d;
+}
+
+.header-center .welcome-btn {
+  margin-top: -13px;
+  margin-bottom: 160px;
+}
+
+.services {
+  text-align: center;
+  padding: 100px 5px;
+}
+
+.caption h2 {
+  font: bold 40px "Montserrat", "Arial", sans-serif;
+  color: #222222;
+  line-height: 52px;
+  text-transform: uppercase;
+  letter-spacing: -0.025em;
+  margin-top: 9px;
+  margin-bottom: 3px;
+}
+
+.caption span {
+  font: italic 20px "Vollkorn", "Times", serif;
+  color: #777777;
+  line-height: 26px;
+}
+
+.service-items {
+  text-align: justify;
+  margin-top: 73px;
+}
+
+.service-items:after {
+  width: 100%;
+  content: '';
+  display: inline-block;
+}
+
+.service-item {
+  display: inline-block;
+  text-align: center;
+  width: 290px;
+  padding: 0;
+}
+
+.service-item h3 {
+  font: bold 18px "Montserrat", "Arial", sans-serif;
+  color: #222222;
+  letter-spacing: -0.025em;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+.service-item p {
+  margin: 0;
+  color: #777777;
+  font: 14px "Roboto Slab", "Times", serif;
+  line-height: 21px;
+  letter-spacing: -0.025em;
+}
+
+.icon-cart {
+  width: 74px; height: 73px;
+  background: url('http://u.cubeupload.com/pavel1996/csssprites.png') -10px -10px;
+  display: inline-block;
+  margin-bottom: 17px;
+}
+
+.icon-web {
+  width: 74px; height: 73px;
+  background: url('http://u.cubeupload.com/pavel1996/csssprites.png') -104px -10px;
+  display: inline-block;
+  margin-bottom: 17px;
+}
+
+.icon-lock {
+  width: 74px; height: 73px;
+  background: url('http://u.cubeupload.com/pavel1996/csssprites.png') -10px -103px;
+  display: inline-block;
+  margin-bottom: 17px;
+}
+
+.portfolio {
+  background-color: #f7f7f7;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+
+.projects {
+  margin-top: 72px;
+  font-size: 0;
+}
+
+.project {
+  display: inline-block;
+  width: 290px;
+  margin-right: 35px;
+  margin-bottom: 49px;
+  background-color: #ffffff;
+}
+
+.project:nth-child(3n) {
+  margin-right: 0;
+}
+
+.project-name {
+  padding: 25px 0;
+}
+
+.project-name h3 {
+  font: bold 18px "Montserrat", "Arial", sans-serif;
+  color: #333333;
+  letter-spacing: -0.025em;
+  margin: 0;
+}
+
+.project-name .category {
+  font: italic 17px "Vollkorn", "Times", serif;
+  color: #737373;
+}
+
+.about-us {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.history {
+  margin-top: 58px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.period {
+  width: 345px;
+  clear: both;
+  min-height: 276px;
+}
+
+.period h3 {
+  font: bold 18px "Montserrat", "Arial", sans-serif;
+  line-height: 1.4;
+  color: #222222;
+  letter-spacing: -0.025em;
+}
+
+.period time {
+  text-transform: uppercase;
+}
+
+.period p {
+  font: 14px "Roboto Slab", "Times", serif;
+  color: #777777;
+  line-height: 1.5;
+  letter-spacing: -0.025em;
+  margin-top: -7px;
+}
+
+.period:nth-child(odd) {
+  float: left;
+  text-align: right;
+  position: relative;
+  padding-left: 35px;
+}
+
+.period:nth-child(even) {
+  float: right;
+  text-align: left;
+  position: relative;
+  padding-right: 35px;
+}
+
+.period:nth-child(odd)::after {
+  box-sizing: border-box;
+  display: block;
+  content: "";
+  width: 184px;
+  height: 184px;
+  border-radius: 92px;
+  border: 8px solid #f1f1f1;
+  position: absolute;
+  top: 14px;
+  right: -227px;
+}
+
+.period:nth-child(even)::before {
+  box-sizing: border-box;
+  display: block;
+  content: "";
+  width: 184px;
+  height: 184px;
+  border-radius: 92px;
+  border: 8px solid #f1f1f1;
+  position: absolute;
+  top: 14px;
+  left: -227px;
+}
+
+.history:after {
+  display: block;
+  content: "";
+  height: 940px;
+  width: 2px;
+  background-color: #f1f1f1;
+  position: absolute;
+  top: 184px;
+  left: calc(50% - 1px);
+  z-index: -10;
+}
+
+.first:after {
+  background-image: url(http://u.cubeupload.com/pavel1996/d6cImage.jpg);
+  background-position: -28px 0;
+}
+
+.second:before {
+  background-image: url(http://u.cubeupload.com/pavel1996/17cImage111.jpg);
+  background-position: -22px -7px;
+}
+
+.third:after {
+  background-image: url(http://u.cubeupload.com/pavel1996/f86Image11.jpg);
+  background-position: -127px -122px;
+}
+
+.fourth:before {
+  background-image: url(http://u.cubeupload.com/pavel1996/342Image1.jpg);
+  background-position: -21px -3px;
+}
+
+.history .last-sentence {
+  clear: both;
+  text-transform: uppercase;
+  border-radius: 91px;
+  border: 7px solid #f1f1f1;
+  font: bold 18px "Montserrat", "Arial", sans-serif;
+  line-height: 26px;
+  color: #ffffff;
+  letter-spacing: -0.025em;
+  width: 182px;
+  height: 182px;
+  background-color: #fed136;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+  padding: 35px 0;
+  display: inline-block;
+  margin-top: 13px;
+}
+
+.our-team {
+  background-color: #f9f9f9;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.member {
+  display: inline-block;
+  width: 220px;
+  margin: 0 28px;
+}
+
+.member .photo {
+  width: 220px;
+  height: 220px;
+  background-color: #000000;
+  border-radius: 110px;
+  margin-top: 84px;
+  margin-bottom: 25px;
+}
+
+.member .name {
+  display: block;
+  font: bold 16px "Montserrat", "Arial", sans-serif;
+  color: #222222;
+  letter-spacing: -0.025em;
+}
+
+.member .position {
+  font: 14px "Roboto Slab", "Times", serif;
+  color: #777777;
+  letter-spacing: -0.025em;
+}
+
+.social-btn {
+  display: inline-block;
+  margin: 3px;
+  width: 40px;
+  height: 40px;
+  background-image: url('http://u.cubeupload.com/pavel1996/spritesocial.png');
+  background-repeat: no-repeat;
+  font-size: 0;
+}
+
+.social-btn:hover {
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.social-btn:active {
+  opacity: 0.7;
+}
+
+.member-social .twitter {
+  background-position: -312px -5px;
+}
+
+.member-social .facebook {
+  background-position: -5px -5px;
+}
+
+.member-social .google {
+  background-position: -108px -5px;
+}
+
+.member-social .pinterest {
+  background-position: -209px -5px;
+}
+
+.our-team .description {
+  display: inline-block;
+  width: 650px;
+  font: 16px "Roboto Slab", "Times", serif;
+  line-height: 23px;
+  color: #777777;
+  letter-spacing: -0.025em;
+  margin-top: 25px;
+  margin-bottom: 100px;
+}
+
+.logos {
+  text-align: center;
+  padding: 41px 0;
+  font-size: 0;
+}
+
+.add-logo {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 20px;
+}
+
+.contact-us {
+  background-color: #222222;
+  background-image: url(http://u.cubeupload.com/pavel1996/MapImage.png);
+  background-position: right 120px;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 114px;
+}
+
+.contact-us h2 {
+  color: #ffffff;
+}
+
+.form {
+  margin-top: 46px;
+}
+
+.form-left-col {
+  float: left;
+  width: calc(50% - 15px);
+}
+
+.form-right-col {
+  float: right;
+  width: calc(50% - 15px);
+}
+
+.form input[type=text] {
+  width: 100%;
+  height: 52px;
+  display: block;
+  border-radius: 2px;
+  margin: 28px 0;
+  border: 1px solid #cccccc;
+  padding:  20px;
+  text-transform: uppercase;
+  font: bold 14px "Montserrat", "Arial", sans-serif;
+  color: #666666;
+  letter-spacing: -0.025em;
+}
+
+/* Стили для placeholder */
+::-webkit-input-placeholder {color:#bbbbbb;}
+::-moz-placeholder          {color:#bbbbbb;}/* Firefox 19+ */
+:-moz-placeholder           {color:#bbbbbb;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#bbbbbb;}
+
+.form textarea {
+  width: 100%;
+  height: 212px;
+  float: right;
+  border-radius: 2px;
+  border: 1px solid #cccccc;
+  margin: 28px 0;
+  padding: 16px 20px;
+  text-transform: uppercase;
+  font: bold 14px "Montserrat", "Arial", sans-serif;
+  color: #666666;
+  letter-spacing: -0.025em;
+  resize: none;
+}
+
+.form input[type=submit] {
+  border: 0;
+  cursor: pointer;
+  margin-top: 2px;
+}
+
+.form input[type=submit]:focus {
+  outline: none;
+}
+
+footer .copy {
+  font: 14px "Montserrat", "Arial", sans-serif;
+  line-height: 22px;
+  color: #555555;
+  letter-spacing: -0.025em;
+  margin-right: 118px;
+  display: inline-block;
+  padding: 30px 0;
+}
+
+.footer-social {
+  display: inline-block;
+  padding-top: 18px;
+  padding-bottom: 25px;
+  vertical-align: top;
+  font-size: 0;
+}
+
+.footer-social .social-btn {
+  margin-right: 7px;
+}
+
+.footer-social .twitter {
+  background-position: -363px -5px;
+}
+
+.footer-social .facebook {
+  background-position: -57px -5px;
+}
+
+.footer-social .google {
+  background-position: -159px -5px;
+}
+
+.footer-social .pinterest {
+  background-position: -261px -5px;
+}
